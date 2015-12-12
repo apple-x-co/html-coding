@@ -1,0 +1,51 @@
+
+#tl-globalnav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    background: #323232;
+    background: rgba(0,0,0,0.8);
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#tl-globalnav .tl-globalnav-content {
+	margin: 0 auto;
+	max-width: 980px;
+	padding: 0 22px;
+	position: relative;
+	z-index: 2;
+}
+
+#tl-globalnav .tl-globalnav-item {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    z-index: 1;
+    vertical-align: top;
+}
+
+#tl-globalnav .tl-globalnav-item .tl-glovalnav-logo {
+	color: #ffffff;
+	display: inline-block;
+	width: 100%;
+    height: 44px;
+}
+
+#tl-globalnav .tl-globalnav-item .tl-glovalnav-link-text {
+	color: #ffffff;
+	display: inline-block;
+	width: 100%;
+    height: 44px;
+}
