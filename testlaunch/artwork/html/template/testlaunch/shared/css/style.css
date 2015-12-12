@@ -1,4 +1,10 @@
 
+@charset 'UTF-8';
+
+body,input,textarea,select {
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "Meiryo", Meiryo, Osaka, sans-serif;
+}
+
 #tl-globalnav {
     position: absolute;
     top: 0;
@@ -36,16 +42,6 @@
     vertical-align: top;
 }
 
-#tl-globalnav .tl-globalnav-item .tl-glovalnav-logo {
-	color: #ffffff;
-	display: inline-block;
-	width: 100%;
-    height: 44px;
-}
-
-#tl-globalnav .tl-globalnav-item .tl-glovalnav-link-text {
-	color: #ffffff;
-	display: inline-block;
-	width: 100%;
-    height: 44px;
+#tl-globalnav .tl-glovalnav-link-text {
+	color: #F5F5F5;
 }
