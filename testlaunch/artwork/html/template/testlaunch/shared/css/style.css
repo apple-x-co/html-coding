@@ -13,12 +13,6 @@ body,input,textarea,select {
 	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "Meiryo", Meiryo, Osaka, sans-serif;
 }
 
-#viewport {
-	min-height: 100%;
-	position: relative;
-	width: 100%;
-}
-
 /**
  * Global Navigation
 */
