@@ -159,11 +159,18 @@ a:hover {
 	.menu-layout.flexbox {
 		display: flex;
 	}
+	.menu-layout .menu {
+		width: 25%;
+		min-width: 150px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.menu-layout .menu {
+		width: 100%;
+	}
 }
 
 .menu-layout .menu {
-	width: 25%;
-	min-width: 150px;
     display: inline-block;
     position: relative;
 }
@@ -199,9 +206,18 @@ a:hover {
 	color: #ffffff;
 }
 
+@media screen and (min-width: 768px) {
+	.menu-layout .menu-content {
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.menu-layout .menu-content {
+		margin-top: 20px;
+	}
+}
 .menu-layout .menu-content {
     display: inline-block;
-    margin-left: 20px;
     position: relative;
 	width: 75%;
 }
