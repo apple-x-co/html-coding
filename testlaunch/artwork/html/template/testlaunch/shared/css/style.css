@@ -23,7 +23,7 @@ html {
 */
 .global-navi-container {
 	margin: 0 auto;
-	max-width: 980px;
+	max-width: 1000px;
 	padding: 0 22px;
 	position: relative;
     z-index: 9999;
@@ -78,7 +78,9 @@ html {
 }
 
 .content {
-	margin: 10px;
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0 22px;
 }
 
 /**
@@ -119,7 +121,7 @@ html {
 	background: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
 	line-height: 39px;
-	min-width: 980px;
+	min-width: 1000px;
 	color: #555555;
 	padding: 0 10px 0 10px;
 }
