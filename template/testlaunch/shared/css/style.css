@@ -123,14 +123,21 @@ a:hover {
 /**
  * Box Layout
 */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
 	.box-layout.flexbox {
 		display: flex;
+	}
+	.box-layout section {
+		margin: 10px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.box-layout section {
+		margin-top: 10px;
 	}
 }
 
 .box-layout section {
-	margin: 10px;
 	border-radius: 5px;
 	background: #F5F0CF;
 	padding: 15px;
@@ -148,7 +155,7 @@ a:hover {
 /**
  * Menu Layout
 */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
 	.menu-layout.flexbox {
 		display: flex;
 	}
