@@ -12,11 +12,14 @@
 body,input,textarea,select {
 	color: #333333;
 	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "Meiryo", Meiryo, Osaka, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-feature-settings: "liga","kern";
 }
 
 html {
-  min-height: 100%;
-  position: relative;
+	min-height: 100%;
+	position: relative;
 }
 
 a:link,
@@ -31,7 +34,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
 	body {
-		font-size: 80%;
+		font-size: 90%;
 	}
 }
 
@@ -224,21 +227,26 @@ a:hover {
 @media screen and (min-width: 769px) {
 	.menu-layout .menu-content {
 		margin-left: 20px;
+		width: 75%;
 	}
 }
 @media screen and (max-width: 768px) {
 	.menu-layout .menu-content {
 		margin-top: 20px;
+		width: 100%;
 	}
 }
 .menu-layout .menu-content {
     display: inline-block;
     position: relative;
-	width: 75%;
 }
 
 .menu-layout .menu-content h2 {
     font-size: 1.1rem;
+}
+
+.menu-layout .menu-content p {
+	margin-bottom: 10px;
 }
 
 /**
