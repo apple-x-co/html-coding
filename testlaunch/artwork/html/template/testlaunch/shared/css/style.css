@@ -130,7 +130,7 @@ a:hover {
 /**
  * Box Layout
 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.box-layout.flexbox {
 		display: flex;
 	}
@@ -162,7 +162,7 @@ a:hover {
 /**
  * Menu Layout
 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.menu-layout.flexbox {
 		display: flex;
 	}
@@ -221,7 +221,7 @@ a:hover {
 	color: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.menu-layout .menu-content {
 		margin-left: 20px;
 	}
