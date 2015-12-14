@@ -18,6 +18,15 @@ html {
   position: relative;
 }
 
+a:link,
+a:visited,
+a:active {
+	color: #323232;
+}
+a:hover {
+	color: #1d9ad9;
+}
+
 /**
  * Global Navigation
 */
@@ -120,19 +129,62 @@ html {
 }
 
 .box-layout section {
-  margin: 10px;
-  border-radius: 5px;
-  background: #F5F0CF;
-  padding: 15px;
+	margin: 10px;
+	border-radius: 5px;
+	background: #F5F0CF;
+	padding: 15px;
 }
 
 .box-layout h3 {
-  color: #E6AC27;
-  font-size: 1.1rem;
+	color: #E6AC27;
+	font-size: 1.1rem;
 }
 
 .box-layout p {
-  margin-top: 10px;
+	margin-top: 10px;
+}
+
+/**
+ * Menu Layout
+*/
+.menu-layout {
+}
+
+@media screen and (min-width: 600px) {
+	.menu-layout.flexbox {
+		display: flex;
+	}
+}
+
+.menu-layout .menu {
+	width: 25%;
+    display: inline-block;
+    position: relative;
+}
+
+.menu-layout .menu .item {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	color: #333333;
+	list-style-type: none;
+	margin-bottom: -1px;
+	padding: 10px 15px;
+	height: 46px;
+}
+
+.menu-layout .menu .item:hover {
+	background-color: #eeeeee;
+}
+
+.menu-layout .menu .item.selected {
+	background-color: #0288d1;
+	color: #ffffff;
+}
+
+.menu-layout .menu-content {
+	width: 75%;
+    display: inline-block;
+    position: relative;
 }
 
 /**
