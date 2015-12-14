@@ -97,7 +97,7 @@ html {
 
 .content {
 	margin: 0 auto;
-	padding: 20px;
+	padding: 0 22px;
 }
 @media screen and (min-width: 1000px) {
 	.content {
