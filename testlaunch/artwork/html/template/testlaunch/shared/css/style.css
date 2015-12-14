@@ -10,6 +10,7 @@
 */
 
 body,input,textarea,select {
+	color: #333333;
 	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "Meiryo", Meiryo, Osaka, sans-serif;
 }
 
@@ -147,9 +148,6 @@ a:hover {
 /**
  * Menu Layout
 */
-.menu-layout {
-}
-
 @media screen and (min-width: 600px) {
 	.menu-layout.flexbox {
 		display: flex;
@@ -158,6 +156,7 @@ a:hover {
 
 .menu-layout .menu {
 	width: 25%;
+	min-width: 150px;
     display: inline-block;
     position: relative;
 }
@@ -172,19 +171,36 @@ a:hover {
 	height: 46px;
 }
 
+.menu-layout .menu .item:first-child {
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.menu-layout .menu .item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
 .menu-layout .menu .item:hover {
 	background-color: #eeeeee;
 }
 
 .menu-layout .menu .item.selected {
 	background-color: #0288d1;
+	border: 1px solid #0288d1;
 	color: #ffffff;
 }
 
 .menu-layout .menu-content {
-	width: 75%;
     display: inline-block;
+    margin-left: 20px;
     position: relative;
+	width: 75%;
+}
+
+.menu-layout .menu-content h2 {
+    font-size: 1.1rem;
 }
 
 /**
