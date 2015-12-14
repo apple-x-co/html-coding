@@ -43,6 +43,11 @@ html {
 	font-size: 90%;
 }
 
+.global-navi-container .item.logo {
+	font-size: 150%;
+	text-transform: uppercase;
+}
+
 .global-navi-bar {
     position: absolute;
     top: 0;
