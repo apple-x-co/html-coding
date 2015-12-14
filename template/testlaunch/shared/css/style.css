@@ -22,10 +22,11 @@ html {
 a:link,
 a:visited,
 a:active {
-	color: #323232;
+	color: #08c;
 }
 a:hover {
-	color: #1d9ad9;
+	color: #08c;
+	text-decoration: underline;
 }
 
 /**
@@ -197,12 +198,12 @@ a:hover {
 }
 
 .menu-layout .menu .item:hover {
-	background-color: #eeeeee;
+	background-color: #fcfcfc;
 }
 
 .menu-layout .menu .item.selected {
-	background-color: #0288d1;
-	border: 1px solid #0288d1;
+	background-color: #d8d8d8;
+	border: 1px solid #d8d8d8;
 	color: #ffffff;
 }
 
