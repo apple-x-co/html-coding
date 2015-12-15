@@ -242,7 +242,9 @@ a:hover {
 }
 
 .menu-layout .menu-content h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+	font-weight: normal;
+	margin-bottom: 10px;
 }
 
 .menu-layout .menu-content p {
