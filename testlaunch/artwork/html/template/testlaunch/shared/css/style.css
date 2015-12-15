@@ -252,6 +252,71 @@ a:hover {
 }
 
 /**
+ * Button
+*/
+.button {
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	color: #333333;
+	font-size: 80%;
+	padding: 10px 20px;;
+}
+a.button:link,
+a.button:visited,
+a.button:active
+a.button:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+.button:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.button.disabled {
+	border: 1px solid #cccccc;
+	background-color: #cccccc;
+	color: #ffffff;
+}
+a.button.disabled:link,
+a.button.disabled:visited,
+a.button.disabled:active
+a.button.disabled:hover {
+	color: #ffffff;
+}
+.button.disabled:hover {
+	border: 1px solid #cccccc;
+	background-color: #cccccc;
+	color: #ffffff;
+	opacity: 1.0;
+}
+
+.button.done {
+	border: 1px solid #1492d0;
+	background-color: #1492d0;
+	color: #ffffff;
+}
+a.button.done:link,
+a.button.done:visited,
+a.button.done:active
+a.button.done:hover {
+	color: #ffffff;
+}
+
+.button.notice {
+	border: 1px solid #ff7043;
+	background-color: #ff7043;
+	color: #ffffff;
+}
+a.button.notice:link,
+a.button.notice:visited,
+a.button.notice:active
+a.button.notice:hover {
+	color: #ffffff;
+}
+
+/**
  * Footer
 */
 .footer {
