@@ -318,6 +318,18 @@ a.button.notice:hover {
 }
 
 /**
+ * Gallary
+*/
+.gallary figure {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.gallary figcaption {
+	font-size: 90%;
+}
+
+/**
  * Footer
 */
 .footer {
