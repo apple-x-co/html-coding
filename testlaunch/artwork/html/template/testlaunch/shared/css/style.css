@@ -258,8 +258,9 @@ a:hover {
 	border: 1px solid #dddddd;
 	border-radius: 4px;
 	color: #333333;
+	display: inline-block;
 	font-size: 80%;
-	padding: 10px 20px;;
+	padding: 15px 20px;;
 }
 a.button:link,
 a.button:visited,
