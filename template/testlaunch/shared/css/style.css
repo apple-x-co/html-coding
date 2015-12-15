@@ -322,11 +322,15 @@ a.button.notice:hover {
 */
 .gallary figure {
 	display: inline-block;
-	margin-right: 10px;
+	margin: 10px 10px 0 0;
 }
 
 .gallary figcaption {
 	font-size: 90%;
+}
+
+.gallary .description {
+	font-size: 85%
 }
 
 /**
