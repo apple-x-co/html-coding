@@ -317,6 +317,15 @@ a.button.notice:hover {
 	color: #ffffff;
 }
 
+.button.download:before {
+	content: " ";
+	width: 20px;
+ 	height: 20px;
+ 	margin: 0 5px 0 0;
+	background: url("../img/icon/download168.png");
+	background-size: contain;
+}
+
 /**
  * Gallary
 */
@@ -332,6 +341,62 @@ a.button.notice:hover {
 .gallary .description {
 	font-size: 85%
 }
+
+/**
+ * Menu bread
+*/
+.menu-bread{
+	display: block;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	cursor: pointer;
+}
+.menu-bread .icon:before{
+	content: "";
+	display: block;
+	height: 25px;
+	width: 2px;
+	background: #555;
+	border-radius: 5px;
+	transform: rotate(-90deg);
+	position: absolute;
+	top: 2px;
+	right: 22px;
+	transition-property: top,transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+}
+.menu-bread .icon:after{
+	content: "";
+	display: block;
+	height: 25px;
+	width: 2px;
+	background: #555;
+	border-radius: 5px;
+	transform: rotate(90deg);
+	position: absolute;
+	top: 12px;
+	right: 22px;
+	transition-property: top,transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+}
+
+.menu-bread input{
+	visibility: hidden;
+}
+
+.menu-bread input:checked + .icon:before{
+	transform: rotate(45deg);
+	top: 7px;
+}
+.menu-bread input:checked + .icon:after{
+	transform: rotate(-45deg);
+	top: 7px;
+	background: #ffcc00;
+}
+
 
 /**
  * Footer
