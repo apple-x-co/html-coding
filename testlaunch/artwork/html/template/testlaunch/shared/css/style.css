@@ -267,71 +267,25 @@ a[target="_blank"]:before {
  * Table
 */
 .list01 {
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
 }
 
 .list01 th {
 	padding: 5px;
-	font-weight: bold;
+	font-weight: normal;
 	text-align: center;
 	background: #e6e6e6;
-	border-left: 1px solid #ccc;
-	border-top: 1px solid #ccc;
+	border-left: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+	font-size: 0.9em;
 }
 
 .list01 td {
 	padding: 5px;
-	border-left: 1px solid #ccc;
-	border-top: 1px solid #ccc;
-}
-
-@media screen and (max-width: 768px) {
-	table.list01 {
-		display: block; 
-		position: relative; 
-		width: 100%; 
-	}
-	table.list01 thead {
-		display: block; 
-		float: left; 
-	}
-	table.list01 tbody {
-		display: block; 
-		width: auto; 
-		position: relative; 
-		overflow-x: auto; 
-		white-space: nowrap; 
-	}
-	table.list01 thead tr {
-		display: block; 
-	}
-	table.list01 th {
-		display: block; 
-	}
-	table.list01 tbody tr {
-		display: inline-block; 
-		vertical-align: top; 
-	}
-	table.list01 td {
-		display: block; 
-	}
-	
-	table.list01 th {
-		border-bottom: 0; 
-	}
-	table.list01 td {
-		border-left: 0; 
-		border-right: 0; 
-		border-bottom: 0; 
-	}
-	table.list01 tbody tr {
-		border-right: 1px solid #babcbf; 
-	}
-	table.list01 th:last-child,
-	table.list01 td:last-child {
-		border-bottom: 1px solid #babcbf; 
-	}
+	border-left: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+	font-size: 0.9em;
 }
 
 /**
