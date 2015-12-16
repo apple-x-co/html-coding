@@ -420,7 +420,7 @@ a.button.notice:hover {
 
 .image-stack + .image-stack {
 	margin-left: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .image-stack img {
