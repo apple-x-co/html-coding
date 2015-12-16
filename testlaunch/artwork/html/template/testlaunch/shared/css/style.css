@@ -288,6 +288,11 @@ a.button:hover {
 	text-decoration: none;
 }
 
+a.button:active {
+	opacity: 0.9;
+	background-color: #000000;
+}
+
 .button:hover {
 	opacity: 0.9;
 	cursor: pointer;
