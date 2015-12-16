@@ -572,6 +572,33 @@ a.button.notice:hover {
 }
 
 /**
+ * Form
+*/
+.form input + label {
+	margin-left: 5px;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+	border: 1px solid #cccccc;
+}
+
+.form input[type="text"]:focus,
+.form textarea:focus,
+.form select:focus {
+	box-shadow: 0 0 7px #1492d0;
+	border: 1px solid #1492d0;
+}
+
+.form textarea {
+	border: 1px solid #cccccc;
+}
+
+.form select {
+	border: 1px solid #cccccc;
+}
+
+/**
  * Footer
 */
 .footer {
