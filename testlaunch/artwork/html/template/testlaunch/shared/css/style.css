@@ -526,7 +526,7 @@ a.button.notice:hover {
 	margin-top: 15px;
 }
 
-.image-stack + .image-stack {
+.image-stack {
 	margin-right: 15px;
 	margin-bottom: 30px;
 }
