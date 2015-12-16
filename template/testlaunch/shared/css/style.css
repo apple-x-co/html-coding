@@ -345,14 +345,15 @@ a.button.notice:hover {
 /**
  * Menu bread
 */
-.menu-bread{
+.menu-icon {
 	display: block;
 	width: 45px;
 	height: 45px;
 	position: relative;
 	cursor: pointer;
 }
-.menu-bread .icon:before{
+
+.menu-icon .bar:before {
 	content: "";
 	display: block;
 	height: 25px;
@@ -367,7 +368,8 @@ a.button.notice:hover {
 	transition-duration: 0.5s;
 	transition-timing-function: ease-out;
 }
-.menu-bread .icon:after{
+
+.menu-icon .bar:after {
 	content: "";
 	display: block;
 	height: 25px;
@@ -383,20 +385,20 @@ a.button.notice:hover {
 	transition-timing-function: ease-out;
 }
 
-.menu-bread input{
+.menu-icon input {
 	visibility: hidden;
 }
 
-.menu-bread input:checked + .icon:before{
+.menu-icon input:checked + .bar:before {
 	transform: rotate(45deg);
 	top: 7px;
 }
-.menu-bread input:checked + .icon:after{
+
+.menu-icon input:checked + .bar:after {
 	transform: rotate(-45deg);
 	top: 7px;
 	background: #ffcc00;
 }
-
 
 /**
  * Footer
