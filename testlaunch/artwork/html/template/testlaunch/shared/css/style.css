@@ -352,6 +352,11 @@ a.button.notice:hover {
 	background-size: contain;
 }
 
+.button.icon.wrench:before {
+	background: url("../img/icon/wrench.png") 0 0 no-repeat transparent;
+	background-size: contain;
+}
+
 /**
  * Gallary
 */
