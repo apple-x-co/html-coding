@@ -54,6 +54,7 @@ a[target="_blank"]:before {
  * Global Navigation
 */
 .global-navi-container {
+    display: flex;
 	margin: 0 auto;
 	padding: 0 22px;
 	position: relative;
@@ -71,10 +72,14 @@ a[target="_blank"]:before {
 }
 
 .global-navi-container .item {
-    display: inline-block;
     position: relative;
     height: 44px;
     vertical-align: middle;
+    margin-left: 10px;
+}
+
+.global-navi-container .item:first-child {
+  margin-right: auto;
 }
 
 .global-navi-container .text {
