@@ -292,9 +292,11 @@ a[target="_blank"]:before {
  * Justifiable Flexbox
 */
 .justifiable-flexbox {
-	display: flex;
 	width: 100%;
+	display: flex;
 	justify-content: space-between;
+	
+	display: webkit-flex;
 	-webkit-justify-content: space-between;
 }
 .justifiable-flexbox > .item {
