@@ -41,6 +41,7 @@ a[target="_blank"]:before {
 	vertical-align:middle;
 	background: url("../img/icon/expand.png") 0 0 no-repeat transparent;
 	background-size: contain;
+	margin-bottom: 2px;
 }
 
 @media screen and (max-width: 768px) {
