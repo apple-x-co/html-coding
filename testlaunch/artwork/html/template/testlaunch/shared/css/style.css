@@ -296,7 +296,7 @@ a[target="_blank"]:before {
 	display: flex;
 	justify-content: space-between;
 	
-	display: webkit-flex;
+	display: -webkit-flex;
 	-webkit-justify-content: space-between;
 }
 .justifiable-flexbox > .item {
