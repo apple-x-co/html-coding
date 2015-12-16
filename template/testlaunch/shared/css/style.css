@@ -319,11 +319,13 @@ a.button.notice:hover {
 
 .button.download:before {
 	content: " ";
-	width: 20px;
- 	height: 20px;
- 	margin: 0 5px 0 0;
-	background: url("../img/icon/download168.png");
+	display:inline-block;
+	background: url("../img/icon/download168.png") 0 0 no-repeat transparent;
 	background-size: contain;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align:middle;
 }
 
 /**
