@@ -523,6 +523,7 @@ a.button.notice:hover {
 	background-color: #ffffff;
 	box-shadow: 1px 1px 4px #999999;
 	display: inline-block;
+	margin-top: 15px;
 }
 
 .image-stack + .image-stack {
