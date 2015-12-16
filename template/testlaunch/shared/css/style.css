@@ -372,6 +372,11 @@ a.button.notice:hover {
 	transition-property: top,transform;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-out;
+	
+	-webkit-transform: rotate(-90deg);
+	-webkit-transition-property: top,transform;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-out;
 }
 
 .menu-icon .bar:after {
@@ -388,6 +393,11 @@ a.button.notice:hover {
 	transition-property: top,transform;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-out;
+	
+	-webkit-transform: rotate(90deg);
+	-webkit-transition-property: top,transform;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-out;
 }
 
 .menu-icon input {
@@ -397,12 +407,16 @@ a.button.notice:hover {
 .menu-icon input:checked + .bar:before {
 	transform: rotate(45deg);
 	top: 7px;
+	
+	-webkit-transform: rotate(45deg);
 }
 
 .menu-icon input:checked + .bar:after {
 	transform: rotate(-45deg);
 	top: 7px;
 	background: #ffcc00;
+	
+	-webkit-transform: rotate(-45deg);
 }
 
 /**
