@@ -437,8 +437,12 @@ a.button.notice:hover {
 	height: 135px;
 	background-color: #ffffff;
 	z-index: -1;
+	
 	transform: rotate(2deg);
 	box-shadow: 1px 1px 4px #777777;
+	
+	-webkit-transform: rotate(2deg);
+	-webkit-box-shadow: 1px 1px 4px #777777;
 }
 
 .image-stack:after{
@@ -451,8 +455,12 @@ a.button.notice:hover {
 	padding: 5px;
 	background-color: #ffffff;
 	z-index: -2;
+	
 	transform: rotate(-2deg);
 	box-shadow: 1px 1px 4px #888888;
+	
+	-webkit-transform: rotate(-2deg);
+	-webkit-box-shadow: 1px 1px 4px #888888;
 }
 
 /**
