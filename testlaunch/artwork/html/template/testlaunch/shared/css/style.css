@@ -317,15 +317,39 @@ a.button.notice:hover {
 	color: #ffffff;
 }
 
-.button.download:before {
+.button.icon:before {
 	content: " ";
 	display:inline-block;
-	background: url("../img/icon/download168.png") 0 0 no-repeat transparent;
-	background-size: contain;
 	width: 20px;
 	height: 20px;
 	margin-right: 5px;
+	margin-left: -3px;
 	vertical-align:middle;
+}
+
+.button.icon.download:before {
+	background: url("../img/icon/download.png") 0 0 no-repeat transparent;
+	background-size: contain;
+}
+
+.button.icon.check:before {
+	background: url("../img/icon/check.png") 0 0 no-repeat transparent;
+	background-size: contain;
+}
+
+.button.icon.refresh:before {
+	background: url("../img/icon/refresh.png") 0 0 no-repeat transparent;
+	background-size: contain;
+}
+
+.button.icon.expand:before {
+	background: url("../img/icon/expand.png") 0 0 no-repeat transparent;
+	background-size: contain;
+}
+
+.button.icon.pen:before {
+	background: url("../img/icon/pen.png") 0 0 no-repeat transparent;
+	background-size: contain;
 }
 
 /**
