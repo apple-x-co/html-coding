@@ -401,6 +401,51 @@ a.button.notice:hover {
 }
 
 /**
+ * Image stack
+*/
+.image-stack {
+	position: relative;
+	width: 140px;
+	height: 140px;
+	padding: 5px;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 4px #000000;
+}
+
+.image-stack img {
+	width: 130px;
+	height: auto;
+	vertical-align: middle;
+}
+
+.image-stack:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 150px;
+	background-color: #ffffff;
+	z-index: -1;
+	transform: rotate(3deg);
+	box-shadow: 1px 1px 4px #000000;
+}
+
+.image-stack:after{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 140px;
+	padding: 5px;
+	background-color: #ffffff;
+	z-index: -2;
+	transform: rotate(-5deg);
+	box-shadow: 1px 1px 4px #000000;
+}
+
+/**
  * Footer
 */
 .footer {
