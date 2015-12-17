@@ -59,6 +59,7 @@ a[target="_blank"]:before {
 	position: relative;
 	z-index: 9999;
 	display: flex;
+	display: -webkit-flex;
 }
 @media screen and (min-width: 1000px) {
 	.global-navi-container {
