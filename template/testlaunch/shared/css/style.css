@@ -610,12 +610,21 @@ a.button.notice:hover {
 /**
  * Login form
 */
+@media screen and (min-width: 769px) {
+	.login-form {
+		width: 350px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.login-form {
+		width: 100%;
+	}
+}
 .login-form {
 	background: url(../img/texture/gray.jpg) repeat left top;
 	border-radius: 5px;
 	display: inline-block;
 	padding: 1.87em;
-	width: 350px;
 }
 
 .login-form header {
