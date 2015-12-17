@@ -419,6 +419,11 @@ a.button.notice:hover {
 	background-size: contain;
 }
 
+.button.icon.key:before {
+	background: url("../img/icon/key.png") 0 0 no-repeat transparent;
+	background-size: contain;
+}
+
 /**
  * Gallary
 */
@@ -581,6 +586,8 @@ a.button.notice:hover {
 .form input[type="text"],
 .form input[type="password"] {
 	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	padding: 1px 0 0 5px;
 }
 
 .form input[type="text"]:focus,
@@ -592,10 +599,44 @@ a.button.notice:hover {
 
 .form textarea {
 	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	padding: 1px 0 0 5px;
 }
 
 .form select {
 	border: 1px solid #cccccc;
+}
+
+/**
+ * Login form
+*/
+.login-form {
+	background: url(../img/texture/gray.jpg) repeat left top;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 1.87em;
+	width: 350px;
+}
+
+.login-form header {
+	margin-bottom: 1.0em;
+}
+
+.login-form h2 {
+	font-size: 1.5em;
+}
+
+.login-form p {
+	margin-bottom: 0.5em;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+	width: 100%;
+}
+
+.login-form .button.icon.key {
+	margin-top: 0.5em;
 }
 
 /**
