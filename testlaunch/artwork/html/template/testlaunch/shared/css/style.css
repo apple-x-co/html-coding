@@ -635,6 +635,11 @@ a.button.notice:hover {
 	width: 100%;
 }
 
+.login-form .buttons {
+	text-align: center;
+	margin-bottom: 0.0em;
+}
+
 .login-form .button.icon.key {
 	margin-top: 0.5em;
 }
