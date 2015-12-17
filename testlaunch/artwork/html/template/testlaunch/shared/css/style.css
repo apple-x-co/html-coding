@@ -58,6 +58,7 @@ a[target="_blank"]:before {
 	padding: 0 22px;
 	position: relative;
 	z-index: 9999;
+	display: flex;
 }
 @media screen and (min-width: 1000px) {
 	.global-navi-container {
@@ -71,10 +72,13 @@ a[target="_blank"]:before {
 }
 
 .global-navi-container .item {
-	display: inline-block;
-	position: relative;
 	height: 44px;
 	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.global-navi-container li:first-child {
+	margin-right: auto;
 }
 
 .global-navi-container .text {
@@ -595,6 +599,12 @@ a.button.notice:hover {
 .form select:focus {
 	box-shadow: 0 0 7px #1492d0;
 	border: 1px solid #1492d0;
+}
+
+.form input[type="text"].round,
+.form input[type="password"].round,
+.form textarea.round {
+	border-radius: 21px;
 }
 
 .form textarea {
