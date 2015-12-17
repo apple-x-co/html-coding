@@ -51,6 +51,33 @@ a[target="_blank"]:before {
 }
 
 /**
+ * Background
+*/
+.bg-fixed-cover {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #fefefe;
+}
+
+.bg-fixed-cover.bg-light-blue-blur {
+	background-image: url(../img/bg/light-blue-blur-background.jpg);
+}
+
+.bg-fixed-cover.bg-light-brown-blur {
+	background-image: url(../img/bg/brown-blur-background.jpg);
+}
+
+.bg-fixed-cover.bg-light-pink-blur {
+	background-image: url(../img/bg/pink-blur-background.jpg);
+}
+
+.bg-fixed-cover.bg-light-yellow-blur {
+	background-image: url(../img/bg/yellow-blur-background.jpg);
+}
+
+/**
  * Global Navigation
 */
 .global-navi-container {
