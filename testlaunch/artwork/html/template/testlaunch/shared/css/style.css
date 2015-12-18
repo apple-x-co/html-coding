@@ -493,14 +493,6 @@ a.button.notice:hover {
 	margin-top: 5px;
 }
 
-.gallary figcaption + .description {
-	margin-top: 5px;
-}
-
-.gallary .description {
-	font-size: 85%;
-}
-
 /**
  * Menu bread
 */
