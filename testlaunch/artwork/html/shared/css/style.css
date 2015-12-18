@@ -424,8 +424,8 @@ a.button.done:hover {
 }
 
 .button.notice {
-	border: 1px solid #ff7043;
-	background-color: #ff7043;
+	border: 1px solid #f3562f;
+	background-color: #f3562f;
 	color: #ffffff;
 }
 a.button.notice:link,
