@@ -6,6 +6,11 @@
 	transition: all 0.4s;
 }
 
+.justifiable-flexbox .welcome-message {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media screen and (max-width: 768px) {
 	.justifiable-flexbox {
 		display: block;
